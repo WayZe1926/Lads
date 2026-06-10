@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lads-v10
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: lads
+  template:
+    metadata:
+      labels:
+        app: lads
+    spec:
+      containers:
+        - name: lads
+          image: lads/v10:latest
+          ports:
+            - containerPort: 8000
