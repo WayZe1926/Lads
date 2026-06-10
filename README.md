@@ -62,18 +62,6 @@ Tracks system metrics such as:
 - 🌍 Centralized control plane logic
 - ☸️ Kubernetes deployment support
 - 📊 Lightweight monitoring system
-- 📁 Project Structure
-LADS/
-│
-├── gateway/            # Zero Trust entry layer
-├── edge/               # WAF + traffic analyzer
-├── ml/                 # anomaly detection logic
-├── control_plane/      # global security brain
-├── stream/             # event logging system
-├── observability/      # metrics tracking
-├── k8s/                # Kubernetes deployment configs
-├── run.py              # system launcher
-├── requirements.txt    # dependencies
 
 # 🚀 Getting Started
 - 1. Install dependencies
